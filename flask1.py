@@ -10,15 +10,9 @@ DATABASE = '/tmp/flask1.db'
 DEBUG = False #The tutorial set this to True but warned about keeping this way.
 SECRET_KEY = 'TO BE EXTRA SAFE, DO NOT POST THIS ON GITHUB'
 USERNAME = 'admin'
-PASSWORD = 'default'
+PASSWORD = 'TO BE EXTRA SAFE, DO NOT POST THIS ON GITHUB'
 
 # create an application using some things from the Flask class we imported above.
-#The __name__ attribute gives our application the name "app."
-#The config method loads a config file. 
-#Here's what from_object() does, as far as I understand it:
-'''It's a run-around the tutorial uses so that we don't need to create
-a separate config file. It grabs the necessary info from somewhere (I don't
-get where yet).'''
 
 app = Flask(__name__)
 app.config.from_object(__name__)
