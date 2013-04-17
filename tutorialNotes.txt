@@ -1,0 +1,8 @@
+STEP 3
+
+At the bottom of the page, they tell you to try two lines from a python 
+interpreter. You don't actually need to put those lines into your file, 
+though, because there's already a block of code that says:
+
+if __name__ = '__main__'
+	init_db()
