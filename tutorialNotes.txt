@@ -6,3 +6,4 @@ though, because there's already a block of code that says:
 
 if __name__ = '__main__'
 	init_db()
+
