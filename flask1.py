@@ -30,12 +30,12 @@ def init_db():
 		with app.open_resource('schema.sql') as f:
 			db.cursor().executescript(f.read())
 		db.commit()
-
+	# The tutorial wants me to run init_db once from the command line
+	# but does not want me to put an init_db line into the program.
 
 #The line below checks "if we are running the module by itself or importing.
 #See explanation here: http://marakana.com/forums/python/python/116.html
  
 if __name__ == '__main__':
 	app.run()
-
 
